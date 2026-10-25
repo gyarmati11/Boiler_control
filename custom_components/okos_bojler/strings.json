@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Boiler setup",
+        "description": "Select the switch that powers the water heater and the battery state-of-charge (%) sensor.",
+        "data": {
+          "name": "Name",
+          "switch_entity": "Boiler switch",
+          "battery_entity": "Battery level sensor (%)",
+          "ev_entity": "EV charging detector (optional): switch, binary sensor or power sensor"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This switch is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Smart Boiler – source entities",
+        "data": {
+          "switch_entity": "Boiler switch",
+          "battery_entity": "Battery level sensor (%)",
+          "ev_entity": "EV charging detector (optional): switch, binary sensor or power sensor"
+        }
+      }
+    }
+  }
+}

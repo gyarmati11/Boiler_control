@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Okos Bojler beállítása",
+        "description": "Válaszd ki a bojlert kapcsoló entitást és az akkumulátor töltöttségét (%) mutató szenzort. Minden további beállítás az eszköz oldalán vagy a kártyán módosítható.",
+        "data": {
+          "name": "Név",
+          "switch_entity": "Bojler kapcsoló",
+          "battery_entity": "Akkumulátor töltöttség szenzor (%)",
+          "ev_entity": "Autótöltés érzékelő (opcionális): töltő kapcsoló, bináris szenzor vagy teljesítmény szenzor"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ez a kapcsoló már egy Okos Bojlerhez tartozik."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Okos Bojler – forrás entitások",
+        "data": {
+          "switch_entity": "Bojler kapcsoló",
+          "battery_entity": "Akkumulátor töltöttség szenzor (%)",
+          "ev_entity": "Autótöltés érzékelő (opcionális): töltő kapcsoló, bináris szenzor vagy teljesítmény szenzor"
+        }
+      }
+    }
+  }
+}

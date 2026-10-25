@@ -1,0 +1,13 @@
+{
+  "domain": "okos_bojler",
+  "name": "Okos Bojler",
+  "codeowners": ["@FELHASZNALONEV"],
+  "config_flow": true,
+  "dependencies": ["http", "frontend"],
+  "documentation": "https://github.com/FELHASZNALONEV/okos_bojler",
+  "integration_type": "device",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/FELHASZNALONEV/okos_bojler/issues",
+  "requirements": [],
+  "version": "1.1.0"
+}
